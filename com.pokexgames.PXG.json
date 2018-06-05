@@ -1,0 +1,39 @@
+{
+  "app-id": "com.pokexgames.PXG",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "1.6",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "pxg",
+  "finish-args": [
+    "--persist=.pxgclient",
+    "--socket=x11",
+    "--share=network",
+    "--socket=pulseaudio",
+    "--device=dri"
+  ],
+  "modules": [
+    {
+      "name": "pxg",
+      "no-autogen": true,
+      "sources": [
+        {
+          "type": "file",
+          "url": "https://www.pokexgames.com/downloads/pxg",
+          "sha1": "11a93126477293cb4a9c27511f25f8c8bf10eb4c"
+        },
+        {
+          "type": "file",
+          "path": "Makefile"
+        },
+        {
+          "type": "file",
+          "path": "com.pokexgames.PXG.desktop"
+        },
+        {
+          "type": "file",
+          "path": "com.pokexgames.PXG.png"
+        }
+      ]
+    }
+  ]
+}

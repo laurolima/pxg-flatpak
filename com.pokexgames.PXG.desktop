@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Game;
+Name=PokeXGames
+Exec=pxg
+Type=Application
+Icon=com.pokexgames.PXG
+Terminal=false
+Type=Application
