@@ -3,6 +3,7 @@ all:
 install:
 	mkdir -p /app/PXG/lib /app/bin
 	cp -ra * /app/PXG
+	chmod +x /app/PXG/pxg
 	ln -s /app/PXG/pxg /app/bin
 	mkdir -p /app/share/applications
 	cp com.pokexgames.PXG.desktop /app/share/applications
