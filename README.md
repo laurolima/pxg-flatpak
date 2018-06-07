@@ -1,9 +1,15 @@
 # pxg-flatpak
 
 ### Install
-[https://github.com/laurolima/pxg-flatpak/releases](Download the latest release) and run
+[Download the latest release](https://github.com/laurolima/pxg-flatpak/releases) and run
 ```
-flatpak --user install pokexgames.flatpak
+flatpak --user install Downloads/pokexgames.flatpak
+```
+
+### Run
+After installing, you can run the flatpak like any regular 
+```
+flatpak run com.pokexgames.PXG
 ```
 
 ### Build
